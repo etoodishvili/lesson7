@@ -1,0 +1,42 @@
+.forest{
+width: 100%;
+position: relative;
+
+}
+
+.bird {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 80px;
+	left: 800px;
+    animation: bird 30s infinite;
+}
+
+@keyframes bird{
+	0%{left:100px;}
+	100%{left:1500px;}
+	/*from{left:100px;}
+    to{left:1300px;}*/
+    /*0%{top:0px; left:200px;}
+    25%{top:100px;left:400px;}
+    50%{top:70px;left:600px;}
+    75%{top:100px;left:900px;}
+    100%{top:0px;left:100px;}*/
+
+}
+
+.mushroom{
+	width: 80px;
+	height:100px;
+	bottom: 0px;
+	left: 300px;
+	position: absolute;
+	animation: mushroom 20s infinite;
+}
+
+@keyframes mushroom{
+	from{bottom:-20px;}
+	to{bottom:30px;}
+
+}
